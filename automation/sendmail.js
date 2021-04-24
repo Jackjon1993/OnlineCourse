@@ -7,7 +7,7 @@ var pool = mysql.createPool(dbConfig.mysql);
 
 // var pool  = mysql.createPool({  
 //   connectionLimit : 10,  
-//   host            : 'localhost',  
+//   host            : '118.190.162.70',  
 //   user            : 'root',  
 //   password        : '123456',  
 //   database        : 'nodejs'  

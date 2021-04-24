@@ -38,7 +38,7 @@ router.post('/uploadImg', upload.single('img'), (req, res) => {
     // console.log(req.file);
 
     let imgPath = req.file.path.split('public')[1]
-    let imgUrl = 'http://localhost:3000' + '/static' + imgPath
+    let imgUrl = 'http://118.190.162.70:3000' + '/static' + imgPath
     console.log(imgUrl)
     res.send({
         code: 200,
@@ -55,7 +55,7 @@ router.post('/uploadFiles', upload.array('files', 3), (req, res) => {
         // console.log(arry[i].path)
         let fileName = arry[i].originalname
             // let filePath = arry[i].path.split('public')[1]
-        let fileUrl = 'http://localhost:3000' + '/static' + arry[i].path.split('public')[1]
+        let fileUrl = 'http://118.190.162.70:3000' + '/static' + arry[i].path.split('public')[1]
         fileUrls.push(
             fileName,
             fileUrl

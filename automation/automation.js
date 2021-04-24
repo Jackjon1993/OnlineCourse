@@ -21,7 +21,7 @@ var auto = function() {
                 // })
                 rows.forEach(Element => {
                     let arrInner = []
-                    let fileurl = 'http://localhost:8080/#/course?courseno=' + element.courseno
+                    let fileurl = 'http://118.190.162.70:8080/#/course?courseno=' + element.courseno
                     arrInner.push(element.id)
                     arrInner.push(element.courseno)
                     arrInner.push(element.title)
@@ -45,7 +45,7 @@ var auto = function() {
         //         data.push(title) //添加列名
         //         rows.forEach(element => {
         //             // let arrInner = []
-        //             // let fileurl = 'http://localhost:8080/#/course?courseno=' + element.courseno
+        //             // let fileurl = 'http://118.190.162.70:8080/#/course?courseno=' + element.courseno
         //             // arrInner.push(element.id)
         //             // arrInner.push(element.courseno)
         //             // arrInner.push(element.title)

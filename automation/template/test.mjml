@@ -14,7 +14,7 @@
     <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
       <mj-column width="600px">
         <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
-        <mj-button background-color="#F63A4D" href="http://localhost:8080/home">Promotion</mj-button>
+        <mj-button background-color="#F63A4D" href="http://118.190.162.70:8080/home">Promotion</mj-button>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -25,7 +25,7 @@
         <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">Dear Jackjon</mj-text>
         <mj-text color="#525252">Jackjon在线学习平台推出了一系列自助学习课程，欢迎你来学习哟！
         点击下方按钮直达</mj-text>
-        <mj-button background-color="#F45E43" href="http://localhost:8080/home">Learn more</mj-button>
+        <mj-button background-color="#F45E43" href="http://118.190.162.70:8080/home">Learn more</mj-button>
       </mj-column>
     </mj-section>
     <mj-raw>
