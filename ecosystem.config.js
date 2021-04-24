@@ -27,7 +27,7 @@ module.exports = {
             user: 'root',
             host: '118.190.162.70',
             ref: 'origin/master',
-            repo: 'https://github.com/Jackjon1993/OnlineCourse.git',
+            repo: 'https://github.com/Jackjon1993/onlineCourse.git',
             path: '/usr/local/myProject', //存放在服务器上的路径
             'pre-deploy-local': '',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
