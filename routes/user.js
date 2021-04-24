@@ -244,4 +244,7 @@ router.delete('/delUser', function(req, res, next) {
         connection.release();
     })
 })
+router.get('/test', function(req, res, next) {
+    res.send('this is test')
+})
 module.exports = router;
